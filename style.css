@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    padding: 8px;
+}
+.leftElements{
+    display: flex;
+    gap: 16px;
+}
+.rightElements{
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
