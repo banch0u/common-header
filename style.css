@@ -8,13 +8,41 @@ body{
     align-items: center;
     background-color: azure;
     padding: 8px;
+    color: blueviolet;
+
 }
 .leftElements{
     display: flex;
     gap: 16px;
+    align-items: center;
+}
+.leftElements .logo{
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 1000;
+}
+.leftElements a{
+    color: blueviolet;
+    text-decoration: none;
+    flex-shrink: 0;
+    
 }
 .rightElements{
     display: flex;
     margin-left: auto;
     gap: 16px;
+    align-items: center;
+}
+.rightElements .notificationBar{
+    color: white;
+    background-color: blueviolet;
+    padding: 5px 20px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.rightElements .pp{
+    background-color: blueviolet;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
 }
